@@ -14,7 +14,7 @@ public class ConexionBD {
 	
 	public static Connection conectar() {
 		try {
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mantenimientoBP", "root", "LautiyMica31");	
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/mantenimientoBP", "root", "");	
         } catch (SQLException e) {
         System.err.println("Error de conexion a la Base de Datos: " + e.getMessage());
         }
